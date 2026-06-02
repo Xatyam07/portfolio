@@ -126,7 +126,7 @@ GitHub: https://github.com/Xatyam07
 
 LinkedIn: [www.linkedin.com/in/satyam-mishra-611223319](http://www.linkedin.com/in/satyam-mishra-611223319)
 
-Email: Add Your Email
+Email: xatyammishra07@gmail.com
 
 ---
 
