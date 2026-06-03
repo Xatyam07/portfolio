@@ -4,7 +4,7 @@ A modern and responsive developer portfolio built with **Next.js**, **TypeScript
 
 ## 🌐 Live Demo
 
-Coming Soon
+https://satyam07portfolio.vercel.app
 
 ## 👨‍💻 About Me
 
