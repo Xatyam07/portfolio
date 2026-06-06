@@ -109,7 +109,7 @@ export const projects: Project[] = [
       "Deep Learning",
     ],
 
-    image: "/projects/speech-sentiment.png",
+    image: "/projects/speech.png",
     featured: true,
 
     highlights: [
