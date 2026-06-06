@@ -4,7 +4,7 @@ export const siteConfig: SiteConfig = {
   title: "Satyam Mishra — Full Stack Developer",
   description:
     "Full Stack Developer specializing in React, Next.js, and Node.js. Building exceptional digital experiences with modern web technologies.",
-  url: "https://www.abhayrana.com",
+  url: "https://satyam07portfolio.vercel.app",
   ogImage: "/og-image.png",
   author: "Satyam Mishra",
 };
