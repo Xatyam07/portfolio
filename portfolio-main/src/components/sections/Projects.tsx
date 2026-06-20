@@ -8,14 +8,6 @@ import { ProjectCard } from "~/components/ui/ProjectCard";
 import { staggerContainer, staggerItem } from "~/lib/motion";
 
 export function Projects() {
-  const featuredProjects = projects.filter(
-    (project) => project.featured
-  );
-
-  const otherProjects = projects.filter(
-    (project) => !project.featured
-  );
-
   return (
     <AnimatedSection id="projects">
       <div className="mx-auto max-w-6xl">
@@ -29,29 +21,16 @@ export function Projects() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
+          className="grid gap-6 grid-cols-1 md:grid-cols-2"
         >
-          {featuredProjects.map((project, index) => (
-            <motion.div
-              key={project.id}
-              variants={staggerItem}
-              className={index === 0 ? "md:col-span-2" : ""}
-            >
-              <ProjectCard
-                project={project}
-                featured={index === 0}
-                className="h-full"
-              />
-            </motion.div>
-          ))}
-
-          {otherProjects.map((project) => (
+          {projects.map((project) => (
             <motion.div
               key={project.id}
               variants={staggerItem}
             >
               <ProjectCard
                 project={project}
+                featured={project.featured}
                 className="h-full"
               />
             </motion.div>

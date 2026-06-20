@@ -1,8 +1,18 @@
 export const achievements = [
   {
+    company: "Bluestock Fintech",
+    role: "Data Analyst Intern Offer Letter",
+    date: "15 June 2026",
+    banner: "/company/bluestock-banner.png",
+    image: "/achievements/bluestock-offer.jpg",
+    description:
+      "Verified Offer Letter (Offer ID: BFDA100375) for the role of Data Analyst Intern at Bluestock Fintech. Remotely contributing to data analysis, business insights, reporting, and operations.",
+  },
+
+  {
     company: "ShadowFox",
     role: "Cyber Security Intern",
-    date: "Jan 2025 - Present",
+    date: "January 2025 – June 2026",
     banner: "/company/shadowfox-banner.png",
     image: "/achievements/shadowfox.jpeg",
     description:

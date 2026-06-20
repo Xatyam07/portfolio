@@ -31,7 +31,7 @@ export function Navbar() {
             {navItems.map((item) => {
               const isActive = isHome
                 ? activeSection === item.href.replace("#", "")
-                : item.href === "#blog" && pathname.startsWith("/blog");
+                : item.href === "#achievements" && pathname.startsWith("/blog");
               return (
                 <Link
                   key={item.href}
@@ -89,7 +89,7 @@ export function Navbar() {
               {navItems.map((item) => {
                 const isActive = isHome
                   ? activeSection === item.href.replace("#", "")
-                  : item.href === "#blog" && pathname.startsWith("/blog");
+                  : item.href === "#achievements" && pathname.startsWith("/blog");
                 return (
                   <Link
                     key={item.href}

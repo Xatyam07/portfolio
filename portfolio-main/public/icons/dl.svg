@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <defs>
+    <linearGradient id="dl-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <line x1="4" y1="12" x2="12" y2="6" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="4" y1="12" x2="12" y2="12" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="4" y1="12" x2="12" y2="18" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="12" y1="6" x2="20" y2="9" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="12" y1="12" x2="20" y2="9" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="12" y1="12" x2="20" y2="15" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="12" y1="18" x2="20" y2="15" stroke="url(#dl-grad)" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="4" cy="12" r="3" fill="#06b6d4" />
+  <circle cx="12" cy="6" r="3" fill="#3b82f6" />
+  <circle cx="12" cy="12" r="3" fill="#06b6d4" />
+  <circle cx="12" cy="18" r="3" fill="#3b82f6" />
+  <circle cx="20" cy="9" r="3" fill="#06b6d4" />
+  <circle cx="20" cy="15" r="3" fill="#3b82f6" />
+</svg>

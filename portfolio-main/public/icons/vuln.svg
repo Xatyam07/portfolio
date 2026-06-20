@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <defs>
+    <linearGradient id="vuln-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <circle cx="12" cy="12" r="9" stroke="url(#vuln-grad)" stroke-width="2" />
+  <line x1="12" y1="1" x2="12" y2="23" stroke="url(#vuln-grad)" stroke-width="1.5" />
+  <line x1="1" y1="12" x2="23" y2="12" stroke="url(#vuln-grad)" stroke-width="1.5" />
+  <circle cx="12" cy="12" r="5" stroke="url(#vuln-grad)" stroke-width="1.5" fill="url(#vuln-grad)" fill-opacity="0.1" />
+</svg>

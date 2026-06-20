@@ -1,9 +1,28 @@
 export const experiences = [
   {
+    role: "Data Analyst Intern",
+    company: "Bluestock Fintech",
+    location: "Remote · Part-Time Internship",
+    period: "20 June 2026 – 20 August 2026",
+    achievements: [
+      "Selected as a Data Analyst Intern at Bluestock Fintech. Working remotely with the fintech team to gain practical experience in data analysis, business insights, reporting, and data-driven decision-making within a dynamic startup environment.",
+      "Key Responsibilities: Data Analysis, Data Visualization, Business Insights, Reporting & Analytics, Fintech Data Operations, and Team Collaboration.",
+      "Status: Current Internship (Salary: Undisclosed)",
+    ],
+    technologies: [
+      "Data Analysis",
+      "Data Visualization",
+      "Business Insights",
+      "Reporting & Analytics",
+      "Fintech",
+    ],
+  },
+
+  {
     role: "Cyber Security Intern",
     company: "ShadowFox",
     location: "India · Hybrid",
-    period: "Jan 2025 - Present",
+    period: "January 2025 – June 2026",
     achievements: [
       "Identified and mitigated potential security threats.",
       "Conducted vulnerability assessments and security audits.",

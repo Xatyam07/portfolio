@@ -3,7 +3,6 @@
 import Image from "next/image";
 import {
   ExternalLink,
-  Github,
   Package,
   Sparkles,
   ShieldCheck,
@@ -157,18 +156,6 @@ export function ProjectCard({
 
         {!isDisabled && (
           <div className="flex flex-wrap gap-4">
-            {project.githubUrl && (
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-sm text-[#a1a1aa] hover:text-red-400 transition-colors"
-              >
-                <Github size={16} />
-                Code
-              </a>
-            )}
-
             {project.npmUrl && (
               <a
                 href={project.npmUrl}

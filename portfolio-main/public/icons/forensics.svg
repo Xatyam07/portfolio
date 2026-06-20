@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <defs>
+    <linearGradient id="foren-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <path d="M12 2s-8 3-8 8c0 4.5 3.5 8.5 8 10 4.5-1.5 8-5.5 8-10 0-5-8-8-8-8z" stroke="url(#foren-grad)" stroke-width="2" stroke-linejoin="round" opacity="0.4" />
+  <circle cx="10" cy="10" r="4" stroke="url(#foren-grad)" stroke-width="2" />
+  <line x1="13.5" y1="13.5" x2="19" y2="19" stroke="url(#foren-grad)" stroke-width="2" stroke-linecap="round" />
+</svg>

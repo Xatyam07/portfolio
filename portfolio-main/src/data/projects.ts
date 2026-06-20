@@ -49,6 +49,55 @@ export const projects: Project[] = [
   },
 
   {
+    id: "venueverse",
+    title: "VenueVerse",
+    description:
+      "VenueVerse is a modern venue discovery, comparison and booking marketplace that helps customers find event venues, compare amenities, check availability and manage bookings while providing venue owners and administrators with powerful management and analytics tools.",
+
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "Firebase",
+      "Cloudinary",
+      "Tailwind CSS",
+      "Neon",
+      "Render",
+      "Vercel",
+    ],
+
+    liveUrl: "https://venueverse-lime.vercel.app",
+    githubUrl: "https://github.com/Xatyam07/VenueVerse",
+    image: "/projects/venueverse.jpg",
+    featured: true,
+
+    highlights: [
+      {
+        icon: "MapPin",
+        label: "Venue Discovery",
+        detail: "Find venues, check amenities and availability",
+      },
+      {
+        icon: "Users",
+        label: "Multi-Role Dashboards",
+        detail: "Dedicated customer, owner, and admin dashboards",
+      },
+      {
+        icon: "Zap",
+        label: "Booking Management",
+        detail: "Track availability, book event spaces, manage reservations",
+      },
+      {
+        icon: "BarChart",
+        label: "Revenue Analytics",
+        detail: "Deep performance and income insights for owners",
+      },
+    ],
+  },
+
+  {
     id: "foodbridge",
     title: "FoodBridge",
     description:
@@ -66,7 +115,7 @@ export const projects: Project[] = [
     ],
 
     image: "/projects/foodbridge.png",
-    featured: true,
+    featured: false,
 
     highlights: [
       {
@@ -93,72 +142,47 @@ export const projects: Project[] = [
   },
 
   {
-    id: "speech-sentiment-detection",
-    title: "Speech Sentiment Detection System",
+    id: "speech-to-text",
+    title: "Speech-to-Text System",
     description:
-      "An AI-based speech sentiment analysis system that converts speech into text and identifies emotions such as positive, negative, neutral, angry, happy, and sad. The system uses speech recognition, natural language processing, and machine learning models for accurate sentiment classification and analytics.",
+      "A real-time speech-to-text platform built using React, Nhost Authentication and Deepgram Speech AI. Users can securely authenticate, access protected dashboards and convert live microphone audio into text with instant transcription updates.",
 
     techStack: [
-      "Python",
-      "Speech Recognition",
-      "Machine Learning",
-      "NLP",
-      "TensorFlow",
-      "Scikit-Learn",
-      "Librosa",
-      "Deep Learning",
+      "React 19",
+      "JavaScript",
+      "Vite",
+      "Nhost",
+      "Deepgram",
+      "Tailwind CSS",
+      "Vercel",
     ],
 
+    githubUrl: "https://github.com/Xatyam07/Vocallab-assessment",
+    liveUrl: "https://vocallab-assessment.vercel.app",
     image: "/projects/speech.png",
-    featured: true,
+    featured: false,
 
     highlights: [
       {
-        icon: "Mic",
-        label: "Speech Recognition",
-        detail: "Converts speech into text in real time",
+        icon: "Lock",
+        label: "Nhost Auth",
+        detail: "Secure user authentication and session management",
       },
       {
-        icon: "Brain",
-        label: "Emotion Analysis",
-        detail: "Detects sentiment from spoken language",
+        icon: "Mic",
+        label: "Live Transcription",
+        detail: "Real-time speech-to-text translation using Deepgram",
       },
       {
         icon: "Activity",
-        label: "AI Powered",
-        detail: "Uses machine learning classification models",
+        label: "WebSockets",
+        detail: "Instant audio streaming and transcription updates",
       },
       {
-        icon: "BarChart",
-        label: "Analytics",
-        detail: "Generates sentiment insights and reports",
+        icon: "Zap",
+        label: "Vite & React",
+        detail: "Fast, responsive dashboard built with React 19",
       },
     ],
-  },
-
-  {
-    id: "coming-soon-1",
-    title: "Coming Soon",
-    description:
-      "An innovative project currently under development. Stay tuned for exciting updates.",
-
-    techStack: ["In Progress"],
-
-    image: "/projects/coming-soon-1.png",
-    featured: false,
-    disabled: true,
-  },
-
-  {
-    id: "coming-soon-2",
-    title: "Coming Soon",
-    description:
-      "Another exciting project is on the way. Check back soon for future releases.",
-
-    techStack: ["In Progress"],
-
-    image: "/projects/coming-soon-2.png",
-    featured: false,
-    disabled: true,
   },
 ];
